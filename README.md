@@ -1,54 +1,33 @@
-# React + TypeScript + Vite
+# utily
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+utily is a **minimal bookmark search app** designed for quick access to frequently used links.  
+It combines a ChatGPT-like calm UI with a search-engine-style interaction.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Instant search**
+  - Results update as you type
+- ⌨️ **Keyboard-first experience**
+  - Arrow keys to navigate results
+  - Enter to open the selected bookmark
+- 🖱️ **Mouse support**
+  - Hover to select
+- 🎯 **Minimal by design**
+  - No tags
+  - Focused on speed and simplicity
 
-## Expanding the ESLint configuration
+## UI Concept
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Visual style inspired by ChatGPT  
+- Interaction inspired by search engines like Google and tools like Raycast
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+The goal is to create a tool that feels **quiet, fast, and effortless**.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- React
+- TypeScript
+- Vite
+- GitHub Pages
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This is a personal project.
