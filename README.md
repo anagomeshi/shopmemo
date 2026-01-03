@@ -32,4 +32,8 @@ The goal is to create a tool that feels **quiet, fast, and effortless**.
 - Vite
 - GitHub Pages
 
+## License
+
+MIT License
+
 This is a personal project.
