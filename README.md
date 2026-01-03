@@ -16,6 +16,8 @@ It combines a ChatGPT-like calm UI with a search-engine-style interaction.
   - No tags
   - Focused on speed and simplicity
 
+> Note: Currently, the application supports Japanese language only.
+
 ## UI Concept
 
 - Visual style inspired by ChatGPT  
